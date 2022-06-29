@@ -4,7 +4,7 @@ This page contains the materials for the Essex Summer School 2022 course *Quanti
 
 Instructor: [Martijn Schoonvelde](http://mschoonvelde.com)
 
-You can find the syllabus [here](). For any questions, send me an email at mschoonvelde[at]gmail[dot]com.
+You can find the syllabus [here](). For any questions, send me an email at martijn.schoonvelde[at]rug.nl.
 
 ## Assignments
 
