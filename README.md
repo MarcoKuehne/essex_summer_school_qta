@@ -6,22 +6,24 @@ Instructor: [Martijn Schoonvelde](http://mschoonvelde.com)
 
 You can find the syllabus [here](). For any questions, send me an email at martijn.schoonvelde[at]rug.nl.
 
-## Assignments
+## Communication
 
-| Date        | Link           | Answers  |
-| ------------- |:-------------:|  -------------:|
+To facilitate communication and interaction throughout the course we will make use of a dedicated [Slack channel](essqta2022.slack.com).
+
 
 ## Slides
+
 | Date        | Slides           |  Date        | Slides           |
 | ------------- |:-------------:| ------------- |:-------------:|
 | July  11   | [Link](f) | July  18   | [Link]()|
 | July  12   | [Link]() | July  19   | [Link]()|
 | July  13   | [Link]() | July  20   | [Link]()|
 | July  14   | [Link]()  | July  21   | [Link]()|
-| July  15   | [Link]()| July  22   |  Presentations |
+| July  15   | [Link]()| July  22   |  [Link]() |
 
 
 ## Lab Sessions
+
 | Date        | Link           | Solutions           |    
 | ------------- |:-------------:|:-------------:|
 | July  11   | Introduction |  |
@@ -47,10 +49,66 @@ For some code in the code practice scripts, I made use of materials by Jos Elkin
 
 ## Course schedule
 
-*July 11:*
 
-* Introduction to the course. 
-* Required reading:
-	* Schumacher, G., Schoonvelde, M., Traber, D., Dahiya, T., & De Vries, E. (2016). EUSpeech: a New Dataset of EU Elite Speeches. In: Proceedings of the International Conference on the Advances in Computational Analysis of Political Text, 75-80.
-	* Michel, J.B., Shen, Y.K., Aiden, A.P., Veres, A., Gray, M.K., Pickett, J.P., Hoiberg, D., Clancy, D., Norvig, P., Orwant, J. and Pinker, S., (2011). Quantitative analysis of culture using millions of digitized books. Science, 331(6014), 176–182.
-	* Wilkerson, J. and Casas, A. (2017). Large-scale computerized text analysis in political science: opportunities and challenges. Annual Review of Political Science 20: 529-544.
+*Day 1 - July 11*
+
+ - **Lecture**: What is quantitative text analysis? What will you learn in this course? 
+ 
+-  **Lab**: Working in RStudio Cloud. Working with libraries in R. Working with RMarkdown. 
+
+*Day 2 - July 12*
+
+-	**Lecture**: Core assumptions in quantitative text analysis. Considering issues of measurement and validation. 
+
+-	**Lab**: Regular expressions. Working with strings. Creating a dataframe. 
+
+
+*Day 3 - July 13*
+
+-	**Lecture**: Going from text to data. Preprocessing and feature selection. Deciding on the unit of observation and unit of analysis. 
+
+-	**Lab**: Importing textual data into R. Creating a corpus of documents and adding metadata to it. Creating a document-feature matrix. 
+
+*Day 4 - July 14*
+
+-	**Lecture**: Comparing documents in a corpus. Combining linguistic features and social science theories. 
+
+-	**Lab**: Estimating similarity, readability and complexity of documents. 
+
+*Day 5 - July 15*
+
+-	**Lecture**: What are dictionaries and how can we validate them? Sensitivity and specificity. 
+
+-	**Lab**: Creating a dictionary and applying it to a document-feature matrix. 
+
+*Day 6 - July 18*
+
+-	**Lecture**: Human coding and document classification using supervised machine learning.
+
+-	**Lab**: Binary classification of documents using a Naïve Bayes classifier.
+
+*Day 7 - July 19*
+
+-	**Lecture**: Supervised, semi-supervised and unsupervised approaches to place text on an underlying (political) dimension. 
+
+-	**Lab**: Wordfish, Wordscores and Latent Semantic scaling.
+
+*Day 8 - July 20*
+
+-	**Lecture**: Understanding topic models. Discussing their pros and cons. 
+
+-	**Lab**: Latent Dirichlet Allocation (LDA) and Structural topics models (STM).
+
+*Day 9 - July 21*
+
+-	**Lecture**: New developments in data. Images as data. Automated speech recognition. Machine translation.
+
+-	**Lab**: Using APIs for generating useful textual data. 
+
+*Day 10 - July 22*
+
+-	**Lecture**: Word embeddings. Concluding remarks. 
+
+-	**Lab**: Exploring a pre-trained word embeddings model. 
+
+
