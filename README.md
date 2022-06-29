@@ -1,4 +1,4 @@
-# Essex Summer School 2022 -- Quantitative Text Analysis
+# Essex Summer School 2022 — Quantitative Text Analysis
 
 This page contains the materials for the Essex Summer School 2022 course *Quantitative Text Analysis*. Materials will be added as we go along.
 
