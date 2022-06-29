@@ -21,7 +21,7 @@ You can find the syllabus [here](). For any questions, send me an email at marti
 | July  15   | [Link]()| July  22   |  Presentations |
 
 
-## Code practice
+## Lab Sessions
 | Date        | Link           | Solutions           |    
 | ------------- |:-------------:|:-------------:|
 | July  11   | Introduction |  |
@@ -42,14 +42,14 @@ You can find the syllabus [here](). For any questions, send me an email at marti
 
 ### Acknowledgements
 
-For some code in the code practice scripts, I made use of materials by Jos Elkink [here](http://www.joselkink.net/files/POL30430_Spring_2017_lab11.html), and [here](http://www.joselkink.net/files/POL30430_Spring_2017_lab12.html), and Wouter van Atteveldt [here](http://vanatteveldt.com/ccs_lda/) and [here](http://vanatteveldt.com/learningr/). The setup of the code practice scripts follows the structure in Welbers, K., Van Atteveldt, W., & Benoit, K. (2017) (see below for citation). For some slides in week 1 of the course I made use of materials by Pablo Barberá and Ken Benoit [here](https://lse-my459.github.io/). Thanks to all.
+For some code in the code practice scripts, I made use of materials by Jos Elkink [here](http://www.joselkink.net/files/POL30430_Spring_2017_lab11.html), and [here](http://www.joselkink.net/files/POL30430_Spring_2017_lab12.html), and Wouter van Atteveldt [here](http://vanatteveldt.com/ccs_lda/) and [here](http://vanatteveldt.com/learningr/). The setup of the code practice scripts follows the structure in Welbers, K., Van Atteveldt, W., & Benoit, K. (2017) (see below for citation). For some slides in week 1 of the course I made use of materials by Pablo Barberá and Ken Benoit [here](https://lse-my459.github.io/). I thank Stefan Müller for sharing his lab session materials with me. Thanks to all.
 
 ## Course schedule
 ----
 
-*July 11: 15:30 - 17:10:*
+*July 11:*
 
-* Introduction to the course and to EUSpeech, a dataset which will use for running examples: [Link](https://dataverse.harvard.edu/dataverse/euspeech)
+* Introduction to the course. 
 * Required reading:
 	* Schumacher, G., Schoonvelde, M., Traber, D., Dahiya, T., & De Vries, E. (2016). EUSpeech: a New Dataset of EU Elite Speeches. In: Proceedings of the International Conference on the Advances in Computational Analysis of Political Text, 75-80.
 	* Michel, J.B., Shen, Y.K., Aiden, A.P., Veres, A., Gray, M.K., Pickett, J.P., Hoiberg, D., Clancy, D., Norvig, P., Orwant, J. and Pinker, S., (2011). Quantitative analysis of culture using millions of digitized books. Science, 331(6014), 176–182.
