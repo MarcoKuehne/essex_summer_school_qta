@@ -8,8 +8,7 @@ You can find the syllabus [here](). For any questions, send me an email at marti
 
 ## Communication
 
-To facilitate communication and interaction throughout the course we will make use of a dedicated [Slack channel](essqta2022.slack.com).
-
+To facilitate communication and interaction throughout the course we will make use of a dedicated [Slack channel](https://essqta2022.slack.com).
 
 ## Slides
 
