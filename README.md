@@ -2,9 +2,7 @@
 
 This page contains the materials for the Essex Summer School 2022 course *Quantitative Text Analysis*. Materials will be added as we go along.
 
-Instructor: [Martijn Schoonvelde](http://mschoonvelde.com)
-
-TA: [Mehmet Erdem Arslan](mailto:m.e.arslan@essex.ac.uk)
+Instructor: [Martijn Schoonvelde](http://mschoonvelde.com); TA: [Mehmet Erdem Arslan](mailto:m.e.arslan@essex.ac.uk)
 
 You can find the syllabus [here](Syllabus_QTA.pdf). For any questions, send me an email at martijn.schoonvelde[at]rug.nl.
 
