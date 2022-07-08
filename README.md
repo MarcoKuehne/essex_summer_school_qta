@@ -4,6 +4,8 @@ This page contains the materials for the Essex Summer School 2022 course *Quanti
 
 Instructor: [Martijn Schoonvelde](http://mschoonvelde.com)
 
+TA: [Mehmet Erdem Arslan](mailto: m.e.arslan@essex.ac.uk)
+
 You can find the syllabus [here](Syllabus_QTA.pdf). For any questions, send me an email at martijn.schoonvelde[at]rug.nl.
 
 ## Communication
@@ -14,7 +16,7 @@ To facilitate communication and interaction throughout the course we will make u
 
 | Date        | Slides           |  Date        | Slides           |
 | ------------- |:-------------:| ------------- |:-------------:|
-| July  11   | [Link](Slides/Slides_QTA_1.pdf) | July  18   | [Link]()|
+| July  11   | [Link]( Slides/Slides_QTA_1.pdf ) | July  18   | [Link]()|
 | July  12   | [Link]() | July  19   | [Link]()|
 | July  13   | [Link]() | July  20   | [Link]()|
 | July  14   | [Link]()  | July  21   | [Link]()|
