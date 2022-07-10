@@ -317,7 +317,8 @@ age <- c(63, 60, 53, 67, 67, 65, 46)
 ```
 
 We can now use the data.frame() to create a dataframe, which we’ll call
-data. This dataframe has two variables: party and polls.
+data. This dataframe has two variables: the name of the commissioner and
+their age.
 
 ``` r
 data <- data.frame(name_commissioner = commissioners, 
