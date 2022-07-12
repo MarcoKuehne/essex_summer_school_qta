@@ -26,7 +26,7 @@ To facilitate communication and interaction throughout the course we will make u
 | Date        | Link           | Solutions           |    
 | ------------- |:-------------:|:-------------:|
 | July  11   | [Script]( Lab_sessions/Day_1/Lab_Session_QTA_1.md ) | [Exercise solution](Lab_sessions/Day_1/Lab_Session_QTA_1_Answers.md) |
-| July  12   | [Script](Lab_sessions/Day_2/Lab_Session_QTA_2.md ) | [Exercise solution]() |
+| July  12   | [Script](Lab_sessions/Day_2/Lab_Session_QTA_2.md ) | [Exercise solution]( Lab_sessions/Day_2/Lab_Session_QTA_2_Answers.md) |
 | July  13   | [Script]() | [Exercise solution]() |
 | July  14   | [Script]() | [Exercise solution]() |
 | July  15   | [Script]() | [Exercise solution]() |
