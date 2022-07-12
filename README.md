@@ -44,7 +44,7 @@ To facilitate communication and interaction throughout the course we will make u
 
 ## Acknowledgements
 
-For some code in the code practice scripts, I made use of materials by Jos Elkink [here](http://www.joselkink.net/files/POL30430_Spring_2017_lab11.html), and [here](http://www.joselkink.net/files/POL30430_Spring_2017_lab12.html), and Wouter van Atteveldt [here](http://vanatteveldt.com/ccs_lda/) and [here](http://vanatteveldt.com/learningr/). The setup of the code practice scripts follows the structure in Welbers, K., Van Atteveldt, W., & Benoit, K. (2017) (see below for citation). For some slides in week 1 of the course I made use of materials by Pablo Barberá and Ken Benoit [here](https://lse-my459.github.io/). I thank Stefan Müller for sharing his lab session materials with me. Thanks to all.
+For some code in the code practice scripts, I made use of materials by Jos Elkink [here](http://www.joselkink.net/files/POL30430_Spring_2017_lab11.html), and [here](http://www.joselkink.net/files/POL30430_Spring_2017_lab12.html), and Wouter van Atteveldt [here](http://vanatteveldt.com/ccs_lda/) and [here](http://vanatteveldt.com/learningr/). The setup of the code practice scripts follows the structure in Welbers, K., Van Atteveldt, W., & Benoit, K. (2017) (see below for citation). I thank Stefan Müller for sharing with me his lab session materials for his QTA course. Thanks to all.
 
 ## Course schedule
 
