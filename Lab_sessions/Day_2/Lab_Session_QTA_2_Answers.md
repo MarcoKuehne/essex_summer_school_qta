@@ -417,9 +417,9 @@ Store this object as `speeches_inaug_since1990`.
 speeches_inaug_since1990 <- corpus_subset(speeches_inaugural, Year >= "1990")
 ```
 
-Explore `corpus_reshape()`. Reshape `data_corpus_inaugural`to the level
-of sentences and store this object as `sentences_inaug_since1990`. What
-is the number of sentences (= number of documents) in this text corpus?
+Explore `corpus_reshape()`. Reshape `speeches_original`to the level of
+sentences and store this object as `sentences_inaug_since1990`. What is
+the number of sentences (= number of documents) in this text corpus?
 
 ``` r
 sentences_inaug_since1990 <- corpus_reshape(speeches_inaug_since1990, to =  "sentences")
@@ -434,7 +434,7 @@ the Supreme Court are included as a multiword expression.
 
 ``` r
 tokens_inaug_since1990 <- tokens(sentences_inaug_since1990) %>%
-  tokens_compound(phrase("United States of America"))
+  tokens_compound(phrase("Supreme Court"))
 ```
 
 Use corpus_reshape() and change the unit of `speeches_inaug_since1990`
