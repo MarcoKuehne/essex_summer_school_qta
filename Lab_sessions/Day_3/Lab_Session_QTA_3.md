@@ -1,16 +1,6 @@
 QTA Day 3: Reading in text data. Inspecting a dfm.
 ================
 
-<style>
-pre {
-  overflow-x: auto;
-}
-pre code {
-  word-wrap: normal;
-  white-space: pre;
-}
-</style>
-
 In this document we will go through the steps of going from raw texts to
 a document term matrix that can be analyzed.
 
