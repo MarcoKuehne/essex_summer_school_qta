@@ -125,23 +125,24 @@ seconds)
 
 ``` r
 collocations <- tokens_speech %>%
+  tokens_sample(size = 10, replace = FALSE) %>%
   textstat_collocations(min_count = 10) %>%
   arrange(-lambda)
 
 head(collocations, 10)
 ```
 
-    ##         collocation count count_nested length   lambda         z
-    ## 4604      sinn fein    13            0      2 17.97079  8.903333
-    ## 3950   sierra leone    24            0      2 16.95732 10.853995
-    ## 4210      hong kong    11            0      2 16.71183 10.070981
-    ## 4211    magna carta    11            0      2 16.71183 10.070981
-    ## 4237  amy winehouse    10            0      2 16.62086 10.001131
-    ## 3937    rolls royce    24            0      2 16.36953 10.881537
-    ## 4045    lashkar gah    15            0      2 16.16302 10.543075
-    ## 4070 panther's claw    15            0      2 15.71104 10.482565
-    ## 4123      bin laden    12            0      2 15.69660 10.345033
-    ## 2259     lough erne    41            0      2 15.43020 16.789719
+    ##            collocation count count_nested length    lambda         z
+    ## 10      united kingdom    12            0      2 10.094828  6.899604
+    ## 3     northern ireland    39            0      2  9.978419 15.748796
+    ## 12      economic cycle    16            0      2  9.724643  6.722794
+    ## 5       interest rates    11            0      2  8.175360 12.988256
+    ## 9          round world    10            0      2  7.366288  8.361329
+    ## 4     prime minister:i    20            0      2  6.577236 13.348562
+    ## 2            make sure    18            0      2  6.392485 16.009593
+    ## 1       prime minister    41            0      2  6.309719 20.836352
+    ## 6  prime minister:well    14            0      2  5.993638 12.385719
+    ## 7         around world    11            0      2  5.861731 12.098494
 
 If we want to add the most surprising collocations to our tokens object
 we can do so using `tokens_compund`:
@@ -283,8 +284,8 @@ textplot_keyness(textstat_keyness(speeches_dfm_speaker, target = "D. Cameron"), 
 
 ## Exercise
 
-Apply `kwic()` to `tokens_speech` object and look up “sinn_fein”.
-Inspect the context in which this party is mentioned.
+Apply `kwic()` to `tokens_speech` object and look up “european_union”.
+Inspect the context in which the EU is mentioned.
 
 Create a dfm from `tokens_speech` and call it `speeches_dfm`:
 
