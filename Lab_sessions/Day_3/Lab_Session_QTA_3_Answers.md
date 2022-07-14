@@ -283,7 +283,7 @@ textplot_keyness(textstat_keyness(speeches_dfm_speaker, target = "D. Cameron"), 
 
 ## Exercise
 
-Apply `kwic()` to `tokens_speech` object and look up “european_union”.
+Apply `kwic()` to `tokens_speech` object and look up “sinn_fein”.
 Inspect the context in which the EU is mentioned.
 
 ``` r
