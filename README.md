@@ -18,7 +18,7 @@ To facilitate communication and interaction throughout the course we will make u
 | July  12   | [Link](Slides/Slides_QTA_2.pdf ) | July  19   | [Link]()|
 | July  13   | [Link](Slides/Slides_QTA_3.pdf ) | July  20   | [Link]()|
 | July  14   | [Link](Slides/Slides_QTA_4.pdf)  | July  21   | [Link]()|
-| July  15   | [Link]()| July  22   |  [Link]() |
+| July  15   | [Link](Slides/Slides_QTA_5.pdf)| July  22   |  [Link]() |
 
 
 ## Lab Sessions
