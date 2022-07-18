@@ -30,7 +30,7 @@ To facilitate communication and interaction throughout the course we will make u
 | July  13   | [Script](Lab_sessions/Day_3/Lab_Session_QTA_3.md ) | [Exercise solution](Lab_sessions/Day_3/Lab_Session_QTA_3_Answers.md) |
 | July  14   | [Script](Lab_sessions/Day_4/Lab_Session_QTA_4.md ) | [Exercise solution](Lab_sessions/Day_4/Lab_Session_QTA_4_Answers.md) |
 | July  15   | [Script](Lab_sessions/Day_5/Lab_Session_QTA_5.md) | [Exercise solution](Lab_sessions/Day_5/Lab_Session_QTA_5_Answers.md) |
-| July  18   | [Script]() | [Exercise solution]() |
+| July  18   | [Script](Lab_sessions/Day_6/Lab_Session_QTA_6.md) | [Exercise solution]() |
 | July  19   | [Script]() | [Exercise solution]() |
 | July  20   | [Script]() | [Exercise solution]() |
 | July  21   | [Script]() | [Exercise solution]() |
