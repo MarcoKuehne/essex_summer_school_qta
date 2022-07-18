@@ -72,8 +72,8 @@ Brown or David Cameron and 4375 tokens.
 ## Naive Bayes
 
 Let’s see if we can build a classifier to predict if a speech is
-delivered by Cameron or Brown. First, we’ll great a vector of 250 random
-numbers selected from the vector 1:776. We’ll also append an id
+delivered by Cameron or Brown. First, we’ll generate a vector of 250
+random numbers selected from the vector 1:776. We’ll also append an id
 variable`id_numeric` to our dfm. **NB**: The `set.seed()` function makes
 sure that you can reproduce your random samples.
 
@@ -103,7 +103,7 @@ table(docvars(dfm_brown_cameron, "speaker"))
 We then take a sample of 250 speeches as our training data and turn it
 into a dfm. The `%in%` operator produces a logical vector of the same
 length as id_numeric, and contains a TRUE if `id_numeric[i]` appears in
-id_train and FALSE otheriwse.
+id_train and FALSE otherwise.
 
 ``` r
 # create a training set: a dfm of 250 documents with row numbers included in id_train
@@ -205,7 +205,7 @@ print(tab_class_nb)
 So it appears we are somewhat successful at predicting whether a speech
 is delivered by Cameron or Brown. Our accuracy is 90%.
 
-Let’s have a look at the most predictive features for a Cameron in the
+Let’s have a look at the most predictive features for Cameron in the
 complete corpus.
 
 ``` r
@@ -266,8 +266,8 @@ topfeatures(dfm_brown_cameron, groups = speaker, n = 50)
     ##           way        system       support        change          come 
     ##          1046          1036          1022          1014           992
 
-As you can see, it seems to predictive features mostly indicate
-different topics.
+As you can see, it seems predictive features mostly indicate different
+topics.
 
 In order to improve on our predictions, we may think of other ways to
 represent our documents. A common approach is to produce a
