@@ -19,10 +19,6 @@ wrapper around the spaCy package in Python. See this
 [link](https://spacyr.quanteda.io/articles/using_spacyr.html) for more
 information on using **spacyr**.
 
-For some of the code in this lab script I rely on [this
-script](https://github.com/ccs-amsterdam/r-course-material/blob/master/tutorials/r_text_nlp.md)
-by Wouter van Atteveldt and Kasper Welbers here. Thanks to both.
-
 Let’s load required libraries first.
 
 ``` r
@@ -227,7 +223,7 @@ textplot_wordcloud(verbs_dfm, max_words = 50)
 
 ![](Lab_Session_QTA_9_files/figure-gfm/unnamed-chunk-13-1.png)<!-- -->
 
-If we want to stitch back together the metada to our newly created
+If we want to stitch back together the metadata to our newly created
 `nouns_dfm` and `verbs_dfm` we can do this as follows:
 
 ``` r
@@ -270,55 +266,55 @@ Let’s inspect this topic model
 terms(lda_10, 10)
 ```
 
-    ##       topic1       topic2      topic3        topic4        topic5        
-    ##  [1,] "happiness"  "side"      "law"         "law"         "civilization"
-    ##  [2,] "mind"       "tax"       "citizenship" "business"    "part"        
-    ##  [3,] "gratitude"  "weapon"    "sense"       "trade"       "order"       
-    ##  [4,] "principle"  "call"      "capital"     "policy"      "opportunity" 
-    ##  [5,] "friendship" "struggle"  "evil"        "race"        "today"       
-    ##  [6,] "providence" "greatness" "demand"      "amendment"   "thought"     
-    ##  [7,] "heart"      "burden"    "method"      "legislation" "republic"    
-    ##  [8,] "libertie"   "past"      "community"   "tariff"      "justice"     
-    ##  [9,] "good"       "pledge"    "slavery"     "reform"      "action"      
-    ## [10,] "virtue"     "faith"     "self"        "labor"       "ideal"       
-    ##       topic6       topic7        topic8       topic9         topic10     
-    ##  [1,] "world"      "war"         "government" "union"        "today"     
-    ##  [2,] "people"     "commerce"    "people"     "power"        "time"      
-    ##  [3,] "nation"     "force"       "country"    "constitution" "child"     
-    ##  [4,] "life"       "progress"    "citizen"    "state"        "citizen"   
-    ##  [5,] "freedom"    "effect"      "duty"       "spirit"       "country"   
-    ##  [6,] "man"        "sovereignty" "interest"   "opinion"      "strength"  
-    ##  [7,] "peace"      "experiment"  "nation"     "citizen"      "friend"    
-    ##  [8,] "government" "invasion"    "law"        "character"    "challenge" 
-    ##  [9,] "day"        "defense"     "party"      "case"         "generation"
-    ## [10,] "hope"       "conflict"    "time"       "hand"         "word"
+    ##       topic1       topic2        topic3        topic4        topic5          
+    ##  [1,] "time"       "citizenship" "war"         "law"         "union"         
+    ##  [2,] "today"      "demand"      "commerce"    "business"    "constitution"  
+    ##  [3,] "citizen"    "community"   "force"       "policy"      "object"        
+    ##  [4,] "work"       "defense"     "order"       "condition"   "territory"     
+    ##  [5,] "day"        "flag"        "peace"       "race"        "opinion"       
+    ##  [6,] "century"    "skill"       "year"        "amendment"   "protection"    
+    ##  [7,] "generation" "century"     "principle"   "legislation" "administration"
+    ##  [8,] "child"      "privileges"  "improvement" "trade"       "limit"         
+    ##  [9,] "democracy"  "debt"        "nation"      "tariff"      "right"         
+    ## [10,] "power"      "dollar"      "friendship"  "reform"      "question"      
+    ##       topic6       topic7     topic8         topic9          topic10     
+    ##  [1,] "world"      "side"     "government"   "civilization"  "spirit"    
+    ##  [2,] "people"     "tax"      "people"       "progress"      "liberty"   
+    ##  [3,] "nation"     "burden"   "power"        "leadership"    "character" 
+    ##  [4,] "life"       "weapon"   "country"      "expression"    "body"      
+    ##  [5,] "peace"      "control"  "citizen"      "order"         "mind"      
+    ##  [6,] "man"        "belief"   "duty"         "democracy"     "error"     
+    ##  [7,] "freedom"    "economy"  "interest"     "advance"       "operation" 
+    ##  [8,] "government" "strength" "nation"       "understanding" "other"     
+    ##  [9,] "year"       "victory"  "constitution" "activity"      "department"
+    ## [10,] "history"    "heritage" "time"         "ideal"         "passion"
 
 ``` r
 head(lda_10$theta, 10)
 ```
 
-    ##                      topic1      topic2      topic3      topic4      topic5
-    ## 1789-Washington 0.324503311 0.016556291 0.016556291 0.019867550 0.026490066
-    ## 1793-Washington 0.142857143 0.028571429 0.028571429 0.085714286 0.028571429
-    ## 1797-Adams      0.299307958 0.010380623 0.010380623 0.003460208 0.001730104
-    ## 1801-Jefferson  0.165450122 0.029197080 0.002433090 0.021897810 0.004866180
-    ## 1805-Jefferson  0.134502924 0.023391813 0.001949318 0.025341131 0.035087719
-    ## 1809-Madison    0.250000000 0.011029412 0.011029412 0.014705882 0.003676471
-    ## 1813-Madison    0.036231884 0.105072464 0.021739130 0.021739130 0.072463768
-    ## 1817-Monroe     0.054519369 0.002869440 0.011477762 0.001434720 0.002869440
-    ## 1821-Monroe     0.008602151 0.008602151 0.004301075 0.006451613 0.002150538
-    ## 1825-Adams      0.128415301 0.009562842 0.006830601 0.002732240 0.012295082
-    ##                     topic6      topic7    topic8     topic9     topic10
-    ## 1789-Washington 0.10596026 0.003311258 0.3443709 0.12913907 0.013245033
-    ## 1793-Washington 0.02857143 0.057142857 0.4571429 0.02857143 0.114285714
-    ## 1797-Adams      0.14705882 0.031141869 0.3858131 0.10726644 0.003460208
-    ## 1801-Jefferson  0.18491484 0.068126521 0.3527981 0.16301703 0.007299270
-    ## 1805-Jefferson  0.09356725 0.091617934 0.3547758 0.20272904 0.037037037
-    ## 1809-Madison    0.13235294 0.073529412 0.3750000 0.11764706 0.011029412
-    ## 1813-Madison    0.11594203 0.177536232 0.4057971 0.03985507 0.003623188
-    ## 1817-Monroe     0.01578192 0.223816356 0.5724534 0.11334290 0.001434720
-    ## 1821-Monroe     0.03763441 0.353763441 0.4591398 0.11720430 0.002150538
-    ## 1825-Adams      0.11885246 0.101092896 0.4030055 0.20218579 0.015027322
+    ##                      topic1      topic2     topic3      topic4      topic5
+    ## 1789-Washington 0.026490066 0.006622517 0.10264901 0.006622517 0.092715232
+    ## 1793-Washington 0.114285714 0.028571429 0.02857143 0.028571429 0.114285714
+    ## 1797-Adams      0.005190311 0.010380623 0.14186851 0.003460208 0.034602076
+    ## 1801-Jefferson  0.053527981 0.002433090 0.09245742 0.021897810 0.121654501
+    ## 1805-Jefferson  0.021442495 0.003898635 0.13255361 0.033138402 0.109161793
+    ## 1809-Madison    0.036764706 0.003676471 0.20955882 0.003676471 0.025735294
+    ## 1813-Madison    0.050724638 0.061594203 0.25724638 0.014492754 0.007246377
+    ## 1817-Monroe     0.001434720 0.005738881 0.22238164 0.004304161 0.100430416
+    ## 1821-Monroe     0.001075269 0.005376344 0.36021505 0.008602151 0.078494624
+    ## 1825-Adams      0.043715847 0.013661202 0.13251366 0.005464481 0.159836066
+    ##                     topic6      topic7    topic8      topic9    topic10
+    ## 1789-Washington 0.08940397 0.003311258 0.4304636 0.013245033 0.22847682
+    ## 1793-Washington 0.02857143 0.057142857 0.5428571 0.028571429 0.02857143
+    ## 1797-Adams      0.12802768 0.017301038 0.4204152 0.005190311 0.23356401
+    ## 1801-Jefferson  0.16788321 0.004866180 0.3892944 0.002433090 0.14355231
+    ## 1805-Jefferson  0.07212476 0.033138402 0.4327485 0.013645224 0.14814815
+    ## 1809-Madison    0.12867647 0.014705882 0.4117647 0.018382353 0.14705882
+    ## 1813-Madison    0.10507246 0.025362319 0.4275362 0.010869565 0.03985507
+    ## 1817-Monroe     0.03443329 0.008608321 0.5824964 0.018651363 0.02152080
+    ## 1821-Monroe     0.02043011 0.008602151 0.4795699 0.004301075 0.03333333
+    ## 1825-Adams      0.10382514 0.001366120 0.4562842 0.010928962 0.07240437
 
 ## Other languages
 
@@ -372,8 +368,8 @@ head(parsed_tokens_dutch)
     ## #   head_token_id <chr>, dep_rel <chr>, deps <chr>, misc <chr>
 
 If I have already downloaded the a language, I can load it as follows
-(if the model is in the current working director – otherwise I will need
-to give it the full path to the file)
+(if the model is in the current working directory – otherwise I will
+need to give it the full path to the file)
 
 ``` r
 udmodel_dutch <- udpipe_load_model(file = "dutch-alpino-ud-2.5-191206.udpipe")
@@ -390,14 +386,15 @@ we created in the above script.
 2.  Display the most occurring adjectives in the inaugural speeches
     using `count()`
 
-3.  Turn the adjectives into a dataframe called `adjs_dfm`
+3.  Group the the adjectives by speech and turn them into a dataframe
+    called `adjs_dfm`.
 
 4.  Append Year, President, FirstName and Party from
     `inaugural_speeches_df` as docvars to `adjs_dfm`
 
 5.  Inspect `adjs_dfm` using the NRC Emotion Association Lexicon. If you
     don’t recall how to do this, have a look back at lab session 4. Call
-    the output of `dfm_lookuop` `dfm_inaugural_NRC`
+    the output of `dfm_lookuop` as `dfm_inaugural_NRC`.
 
 6.  Add the count of fear words as a variable `fear` to the docvars of
     `adjs_dfm`
