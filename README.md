@@ -33,7 +33,7 @@ To facilitate communication and interaction throughout the course we will make u
 | July  18   | [Script](Lab_sessions/Day_6/Lab_Session_QTA_6.md) | [Exercise solution](Lab_sessions/Day_6/Lab_Session_QTA_6_Answers.md) |
 | July  19   | [Script](Lab_sessions/Day_7/Lab_Session_QTA_7.md) | [Exercise solution](Lab_sessions/Day_7/Lab_Session_QTA_7_Answers.md) |
 | July  20   | [Script](Lab_sessions/Day_8/Lab_Session_QTA_8.md) | [Exercise solution](Lab_sessions/Day_8/Lab_Session_QTA_8_Answers.md) |
-| July  21   | [Script](Lab_sessions/Day_9/Lab_Session_QTA_9.md) | [Exercise solution]() |
+| July  21   | [Script](Lab_sessions/Day_9/Lab_Session_QTA_9.md) | [Exercise solution](Lab_sessions/Day_9/Lab_Session_QTA_9_Answers.md) |
 | July  22   | [Script]() | [Exercise solution]() |
 
 <!-- ## Flash talks
