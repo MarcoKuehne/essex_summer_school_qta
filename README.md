@@ -44,7 +44,7 @@ To facilitate communication and interaction throughout the course we will make u
 
 ## Acknowledgements
 
-For some code and ideas in the lab scripts, I made use of materials by Jos Elkink [here](http://www.joselkink.net/files/POL30430_Spring_2017_lab11.html), and [here](http://www.joselkink.net/files/POL30430_Spring_2017_lab12.html); Wouter van Atteveldt and Kasper Welbers [here](https://github.com/ccs-amsterdam/r-course-material/blob/master/tutorials/r_text_nlp.md) and [here](https://github.com/ccs-amsterdam/r-course-material); and **quanteda** [tutorials](https://tutorials.quanteda.io/) here. I thank Stefan Müller for sharing with me his lab session materials for his QTA course at UCD. Thanks to all!
+For some code and ideas in the lab scripts, I made use of materials by Jos Elkink [here](http://www.joselkink.net/files/POL30430_Spring_2017_lab11.html), and [here](http://www.joselkink.net/files/POL30430_Spring_2017_lab12.html); Wouter van Atteveldt and Kasper Welbers [here](https://github.com/ccs-amsterdam/r-course-material/blob/master/tutorials/r_text_nlp.md) and [here](https://github.com/ccs-amsterdam/r-course-material); and **quanteda** [tutorials](https://tutorials.quanteda.io/) here. I thank Stefan Müller for sharing his lab session materials for his QTA course at UCD. Thanks to all!
 
 ## Course schedule
 
