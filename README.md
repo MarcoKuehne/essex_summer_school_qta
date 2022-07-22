@@ -18,7 +18,7 @@ To facilitate communication and interaction throughout the course we will make u
 | July  12   | [Link](Slides/Slides_QTA_2.pdf ) | July  19   | [Link](Slides/Slides_QTA_7.pdf)|
 | July  13   | [Link](Slides/Slides_QTA_3.pdf ) | July  20   | [Link](Slides/Slides_QTA_8.pdf)|
 | July  14   | [Link](Slides/Slides_QTA_4.pdf)  | July  21   | [Link](Slides/Slides_QTA_9.pdf)|
-| July  15   | [Link](Slides/Slides_QTA_5.pdf)| July  22   |  [Link]() |
+| July  15   | [Link](Slides/Slides_QTA_5.pdf)| July  22   |  [Link](Slides/Slides_QTA_9.pdf) |
 
 
 ## Lab Sessions
@@ -34,7 +34,7 @@ To facilitate communication and interaction throughout the course we will make u
 | July  19   | [Script](Lab_sessions/Day_7/Lab_Session_QTA_7.md) | [Exercise solution](Lab_sessions/Day_7/Lab_Session_QTA_7_Answers.md) |
 | July  20   | [Script](Lab_sessions/Day_8/Lab_Session_QTA_8.md) | [Exercise solution](Lab_sessions/Day_8/Lab_Session_QTA_8_Answers.md) |
 | July  21   | [Script](Lab_sessions/Day_9/Lab_Session_QTA_9.md) | [Exercise solution](Lab_sessions/Day_9/Lab_Session_QTA_9_Answers.md) |
-| July  22   | [Script]() | [Exercise solution]() |
+| July  22   | [Script](Lab_sessions/Day_10/Lab_Session_QTA_10.md) | [Exercise solution](Lab_sessions/Day_10/Lab_Session_QTA_10_Answers.md) |
 
 <!-- ## Flash talks
 
