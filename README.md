@@ -143,7 +143,7 @@ Journal of Political Science, 58(4), 1064–1082.
 
 -	**Lecture**: New developments in data. Images as data. Automated speech recognition. Machine translation.
 
--	**Lab**: Using APIs for generating useful textual data. 
+-	**Lab**: Linguistic preprocessing of text. POS tagging and lemmatizing using **udipe** 
 
 - **Readings**:
   - Proksch, S.O., Wratil, C. and Wäckerle, J., (2019). Testing the validity of automatic speech recognition for political text analysis. Political Analysis, 1–21
@@ -156,7 +156,7 @@ Journal of Political Science, 58(4), 1064–1082.
 
 -	**Lecture**: Word embeddings. Concluding remarks. 
 
--	**Lab**: Exploring a pre-trained word embeddings model. 
+-	**Lab**: Training a word embeddings model and inspecting document vectors.
 
 - **Readings**:
   - Rudkowsky, E., Haselmayer, M., Wastian, M., Jenny, M., Emrich, S. & Sedlmair, M., (2018). More than bags of words: Sentiment analysis with word embeddings. Communication Methods and Measures, 12(2-3), 140–157.
