@@ -63,7 +63,7 @@ For some code and ideas in the lab scripts, I made use of materials by Jos Elkin
 
 -	**Lecture**: Core assumptions in quantitative text analysis. Considering issues of measurement and validation. 
 
--	**Lab**: Regular expressions. Working with strings. Creating a dataframe. 
+-	**Lab**: Regular expressions. Working with strings. Cleaning a text corpus. 
 
 - **Readings**:
   -  Welbers, K., Van Atteveldt, W., & Benoit, K. (2017). Text analysis in R. Communication Methods and Measures, 11(4), 245–265.
@@ -75,7 +75,7 @@ For some code and ideas in the lab scripts, I made use of materials by Jos Elkin
 
 -	**Lecture**: Going from text to data. Preprocessing and feature selection. Deciding on the unit of observation and unit of analysis. 
 
--	**Lab**: Importing textual data into R. Creating a corpus of documents and adding metadata to it. Creating a document-feature matrix. 
+-	**Lab**: Importing textual data into R. Creating a corpus of documents and adding metadata. Creating a document-feature matrix. 
 
 - **Readings**:
   -  Denny, M.J. & Spirling, A., (2018). Text preprocessing for unsupervised learning: Why it matters, when it misleads, and what to do about it. Political Analysis, 26(2): pp.168–189.
@@ -87,7 +87,7 @@ Quanteda: An R package for the quantitative analysis of textual data. Journal of
 
 -	**Lecture**: Comparing documents in a corpus. Combining linguistic features and social science theories. 
 
--	**Lab**: Estimating similarity, readability and complexity of documents. 
+-	**Lab**: Examining similarity and complexity of documents. 
 
 - **Readings**
   -  Peterson, A. & Spirling, A., (2018). Classification accuracy as a substantive quantity of interest: Measuring polarization in Westminster systems. Political Analysis, 26(1): pp. 120– 128.
@@ -98,7 +98,7 @@ Quanteda: An R package for the quantitative analysis of textual data. Journal of
 
 -	**Lecture**: What are dictionaries and how can we validate them? Sensitivity and specificity. 
 
--	**Lab**: Creating a dictionary and applying it to a document-feature matrix. 
+-	**Lab**: Categorizing texts using off-the-shelf and home-made dictionaries. 
 
 - **Readings**:
   -  Pennebaker J. & King, L. (1999) Linguistic styles: language use as an individual difference. Journal of Personality and Social Psychology, 77(6), 1296–1312.
@@ -143,7 +143,7 @@ Journal of Political Science, 58(4), 1064–1082.
 
 -	**Lecture**: New developments in data. Images as data. Automated speech recognition. Machine translation.
 
--	**Lab**: Linguistic preprocessing of text. POS tagging and lemmatizing using **udipe** 
+-	**Lab**: Linguistic preprocessing of text. POS tagging and lemmatizing using **udipe**.
 
 - **Readings**:
   - Proksch, S.O., Wratil, C. and Wäckerle, J., (2019). Testing the validity of automatic speech recognition for political text analysis. Political Analysis, 1–21
