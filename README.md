@@ -68,14 +68,14 @@ For some code and ideas in the lab scripts, I made use of materials by Jos Elkin
 - **Readings**:
   -  Welbers, K., Van Atteveldt, W., & Benoit, K. (2017). Text analysis in R. Communication Methods and Measures, 11(4), 245–265.
   
-  - Baden, C., Pipal, C., Schoonvelde, M. & van der Velden, M.A.G., (2022). Three Gaps in Com- putational Text Analysis Methods for Social Sciences: A Research Agenda. Communication Methods and Measures, 16(1): pp. 1–18.
+  - Baden, C., Pipal, C., Schoonvelde, M. & van der Velden, M.A.G., (2022). Three Gaps in Computational Text Analysis Methods for Social Sciences: A Research Agenda. Communication Methods and Measures, 16(1): pp. 1–18.
 
 
 *Day 3 - July 13*
 
--	**Lecture**: Going from text to data. Preprocessing and feature selection. Deciding on the unit of observation and unit of analysis. 
+-	**Lecture**: Going from text to data. Preprocessing and feature selection. Deciding on the unit of analysis. 
 
--	**Lab**: Importing textual data into R. Creating a corpus of documents and adding metadata. Creating a document-feature matrix. 
+-	**Lab**: Importing textual data into R. Introduction to **quanteda** (Benoit _et_al, 2018) Creating a corpus of documents and adding metadata. Creating a document-feature matrix. 
 
 - **Readings**:
   -  Denny, M.J. & Spirling, A., (2018). Text preprocessing for unsupervised learning: Why it matters, when it misleads, and what to do about it. Political Analysis, 26(2): pp.168–189.
@@ -96,7 +96,7 @@ Quanteda: An R package for the quantitative analysis of textual data. Journal of
 
 *Day 5 - July 15*
 
--	**Lecture**: What are dictionaries and how can we validate them? Sensitivity and specificity. 
+-	**Lecture**: What can we do with dictionaries and how can we validate them? Sensitivity and specificity. 
 
 -	**Lab**: Categorizing texts using off-the-shelf and home-made dictionaries. 
 
@@ -141,9 +141,9 @@ Journal of Political Science, 58(4), 1064–1082.
 
 *Day 9 - July 21*
 
--	**Lecture**: New developments in data. Images as data. Automated speech recognition. Machine translation.
+-	**Lecture**: New developments in data.  Machine translation. Automated speech recognition. Images as data.
 
--	**Lab**: Linguistic preprocessing of text. POS tagging and lemmatizing using **udipe**.
+-	**Lab**: Linguistic preprocessing of text. POS tagging and lemmatizing using **udipe** (Wijffels, 2022)
 
 - **Readings**:
   - Proksch, S.O., Wratil, C. and Wäckerle, J., (2019). Testing the validity of automatic speech recognition for political text analysis. Political Analysis, 1–21
@@ -156,7 +156,7 @@ Journal of Political Science, 58(4), 1064–1082.
 
 -	**Lecture**: Word embeddings. Concluding remarks. 
 
--	**Lab**: Training a word embeddings model and inspecting document vectors.
+-	**Lab**: Training a word embeddings model and inspecting document vectors using **text2vec** (Selivanov _et al_ 2022)
 
 - **Readings**:
   - Rudkowsky, E., Haselmayer, M., Wastian, M., Jenny, M., Emrich, S. & Sedlmair, M., (2018). More than bags of words: Sentiment analysis with word embeddings. Communication Methods and Measures, 12(2-3), 140–157.
