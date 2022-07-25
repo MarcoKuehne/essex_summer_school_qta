@@ -75,7 +75,7 @@ For some code and ideas in the lab scripts, I made use of materials by Jos Elkin
 
 -	**Lecture**: Going from text to data. Preprocessing and feature selection. Deciding on the unit of analysis. 
 
--	**Lab**: Importing textual data into R. Introduction to **quanteda** (Benoit _et_al_, 2018) Creating a corpus of documents and adding metadata. Creating a document-feature matrix. 
+-	**Lab**: Importing textual data into R. Introduction to **quanteda** (Benoit _et al._, 2018) Creating a corpus of documents and adding metadata. Creating a document-feature matrix. 
 
 - **Readings**:
   -  Denny, M.J. & Spirling, A., (2018). Text preprocessing for unsupervised learning: Why it matters, when it misleads, and what to do about it. Political Analysis, 26(2): pp.168–189.
