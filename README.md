@@ -51,7 +51,7 @@ For some code and ideas in the lab scripts, I made use of materials by Jos Elkin
 
 *Day 1 - July 11*
 
- - **Lecture**: What is quantitative text analysis? What will you learn in this course? 
+ - **Lecture**: What is quantitative text analysis? What will you learn in this course? Developing a corpus.
  
 -  **Lab**: Working in RStudio Cloud. Working with libraries in R. Working with RMarkdown. 
 
@@ -61,9 +61,9 @@ For some code and ideas in the lab scripts, I made use of materials by Jos Elkin
 
 *Day 2 - July 12*
 
--	**Lecture**: Core assumptions in quantitative text analysis. Considering issues of measurement and validation. 
+-	**Lecture**: Core assumptions in quantitative text analysis. Representations of text. Preprocessing and feature selection.
 
--	**Lab**: Regular expressions. Working with strings. Cleaning a text corpus. 
+-	**Lab**: Working with strings variables. Regular expressions. Cleaning a string vector. 
 
 - **Readings**:
   -  Welbers, K., Van Atteveldt, W., & Benoit, K. (2017). Text analysis in R. Communication Methods and Measures, 11(4), 245–265.
@@ -73,7 +73,7 @@ For some code and ideas in the lab scripts, I made use of materials by Jos Elkin
 
 *Day 3 - July 13*
 
--	**Lecture**: Going from text to data. Preprocessing and feature selection. Deciding on the unit of analysis. 
+-	**Lecture**: Advanced text representations. Risks of feature selection with unsupervised models. 
 
 -	**Lab**: Importing textual data into R. Introduction to **quanteda** (Benoit _et al._, 2018) Creating a corpus of documents and adding metadata. Creating a document-feature matrix. 
 
@@ -85,7 +85,7 @@ Quanteda: An R package for the quantitative analysis of textual data. Journal of
 
 *Day 4 - July 14*
 
--	**Lecture**: Comparing documents in a corpus. Combining linguistic features and social science theories. 
+-	**Lecture**: Comparing documents in a corpus. Generating insights by combining linguistic features with social science theories. 
 
 -	**Lab**: Examining similarity and complexity of documents. 
 
@@ -107,7 +107,7 @@ Quanteda: An R package for the quantitative analysis of textual data. Journal of
 
 *Day 6 - July 18*
 
--	**Lecture**: Human coding and document classification using supervised machine learning.
+-	**Lecture**: Human coding and document classification using supervised machine learning. Evaluating a classifier. 
 
 -	**Lab**: Binary classification of documents using a Naïve Bayes classifier.
 
@@ -118,7 +118,7 @@ Quanteda: An R package for the quantitative analysis of textual data. Journal of
 
 *Day 7 - July 19*
 
--	**Lecture**: Supervised, semi-supervised and unsupervised approaches to place text on an underlying (political) dimension. 
+-	**Lecture**: Supervised, semi-supervised and unsupervised approaches to place text on an underlying dimension. 
 
 -	**Lab**: Wordfish, Wordscores and Latent Semantic scaling.
 
